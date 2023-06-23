@@ -24,6 +24,10 @@ public class Atleta {
         
    
     }
+    
+    public Atleta() {
+    
+}
 
     public static int getContador() {
         return contador;
@@ -81,7 +85,7 @@ public class Atleta {
         this.atletas = atletas;
     }
    
-    public void mostrarAtleta(){
+    public void mostrarEquipo(ArrayList<Atleta> atletas){
         String id = null;
         int i;
         double cont = 0;
